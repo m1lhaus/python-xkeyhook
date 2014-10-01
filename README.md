@@ -11,7 +11,7 @@ Features:
   - keyboard events can be caught by X server before they are being propagated to desktop environment or to any application
   - events are only recorded (not grabbed) so they are still propagated to other applications
   - any key recognized by OS can be recorded (including special keys like multimedia play/pause, volume, etc.)
-  - could be simply used for cathing any system-wide shortcut when your app is minimized or lost focus (this feature missing in PyQt, PyGTK, etc.)
+  - could be simply used for cathing any system-wide shortcut when your app is minimized or lost focus (this feature is missing in PyQt, PyGTK, etc.)
 
 
 Example usage:
