@@ -17,7 +17,7 @@ Features:
 Example usage:
 ----
 
-```(Python)
+```python
 import xkeyhook
 
 # called on KeyDown event
