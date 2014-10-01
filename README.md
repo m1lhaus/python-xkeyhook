@@ -8,7 +8,7 @@ Features:
 
   - written in Python 2.7 thanks to [Python-Xlib][1] wrapper
   - based on pyxhook.py library from [PyKeylogger][2]
-  - keyboard events can be caught by X server before they are beeing propagated to desktop environment or to any application
+  - keyboard events can be caught by X server before they are being propagated to desktop environment or to any application
   - events are only recorded (not grabbed) so they are still propagated to other applications
   - any key recognized by OS can be recorded (including special keys like multimedia play/pause, volume, etc.)
 
