@@ -6,7 +6,7 @@
 #   Only key hook functionality has been kept from original lib.
 #   The module is subject to the license terms set out below.
 #
-#   Modified by: m1lhaus
+#   Modified by: Milan Herbig (m1lhaus)
 #
 # ******************************************************************************************
 #   Copyright (C) 2008 Tim Alexander <dragonfyre13@gmail.com>
