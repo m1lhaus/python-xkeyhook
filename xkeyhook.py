@@ -71,8 +71,6 @@ class HookManager(threading.Thread):
         self.finished = threading.Event()
 
         # Give these some initial values
-        self.mouse_position_x = 0
-        self.mouse_position_y = 0
         self.ison = {"shift": False, "caps": False}
 
         # Compile our regex statements.
