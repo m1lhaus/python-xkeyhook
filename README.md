@@ -6,7 +6,7 @@ Pure Python keyboard hook for recording KeyPress and KeyRelease events via Pytho
 Features:
 -----
 
-  - written in Python 2.7 thanks to [Python-Xlib][1] wrapper
+  - written in Python 2.7 thanks to [Python-Xlib][1] wrapper (easily portable to Python3 - just use 2to3 script and then remove ord() function from line 137)
   - based on pyxhook.py library from [PyKeylogger][2]
   - keyboard events can be caught by X server before they are being propagated to desktop environment or to any application
   - events are only recorded (not grabbed) so they are still propagated to other applications
